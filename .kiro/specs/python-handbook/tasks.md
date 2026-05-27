@@ -68,7 +68,7 @@ Each chapter must follow the 7-section structure: Overview, What you will learn,
 
 ## Phase 4 — Exercises and Solutions
 
-- [~] 29. Create exercise files for chapters 01–10 in `docs/exercises/`
+- [x] 29. Create exercise files for chapters 01–10 in `docs/exercises/`
   - Problem statements and hints only — no solutions
 - [~] 30. Create exercise files for chapters 11–23 in `docs/exercises/`
 - [~] 31. Create solution files for chapters 01–10 in `docs/solutions/`
