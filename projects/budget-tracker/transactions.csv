@@ -1,0 +1,9 @@
+date,type,description,amount,category
+2024-01-15 09:00:00,income,Salary,5000.00,salary
+2024-01-16 12:30:00,expense,Groceries,150.50,food
+2024-01-17 08:45:00,expense,Bus pass,45.00,transport
+2024-01-18 14:20:00,expense,Electric bill,85.00,utilities
+2024-01-19 19:00:00,expense,Dinner,65.00,food
+2024-01-20 10:30:00,income,Freelance project,350.00,freelance
+2024-01-21 15:00:00,expense,Movie tickets,30.00,entertainment
+2024-01-22 09:15:00,expense,Gas,55.00,transport

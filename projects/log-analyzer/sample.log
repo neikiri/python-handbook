@@ -1,0 +1,20 @@
+2024-01-15 09:00:00 INFO Application started
+2024-01-15 09:00:01 INFO Loading configuration
+2024-01-15 09:00:02 DEBUG Configuration loaded successfully
+2024-01-15 09:00:03 INFO Database connection established
+2024-01-15 09:00:05 WARNING High memory usage detected
+2024-01-15 09:00:10 INFO Processing user request
+2024-01-15 09:00:12 ERROR Failed to connect to external API
+2024-01-15 09:00:15 INFO Retrying connection
+2024-01-15 09:00:18 INFO Connection successful
+2024-01-15 09:00:20 DEBUG Request processed in 50ms
+2024-01-15 09:00:25 WARNING Slow query detected
+2024-01-15 09:00:30 INFO User login successful
+2024-01-15 09:00:35 ERROR Database timeout
+2024-01-15 09:00:40 CRITICAL System overload detected
+2024-01-15 09:00:45 INFO Emergency cleanup started
+2024-01-15 09:00:50 INFO System stabilized
+2024-01-15 09:00:55 DEBUG Memory usage: 45%
+2024-01-15 09:01:00 INFO Scheduled task completed
+2024-01-15 09:01:05 WARNING Disk space low
+2024-01-15 09:01:10 INFO Cleanup completed

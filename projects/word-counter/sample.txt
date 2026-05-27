@@ -1,0 +1,6 @@
+The quick brown fox jumps over the lazy dog.
+This is a simple sample text file for testing the word counter.
+The word counter will analyze this file and count all the words.
+Words are separated by spaces and can appear multiple times.
+The quick brown fox is a common example in testing.
+Testing word counters helps understand text analysis better.

@@ -194,14 +194,14 @@ All example files must run without errors with `python filename.py`.
 
 ## Phase 6 — Mini Projects
 
-- [ ] 40. `projects/number-guessing-game/` — `main.py` + `README.md`
-- [ ] 41. `projects/todo-cli/` — `main.py` + `README.md`
-- [ ] 42. `projects/word-counter/` — `main.py` + `README.md`
-- [ ] 43. `projects/csv-sales-report/` — `main.py` + `README.md` + sample CSV
-- [ ] 44. `projects/password-generator/` — `main.py` + `README.md`
-- [ ] 45. `projects/budget-tracker/` — `main.py` + `README.md`
-- [ ] 46. `projects/log-analyzer/` — `main.py` + `README.md` + sample log
-- [ ] 47. `projects/personal-notes-app/` — `main.py` + `README.md`
+- [x] 40. `projects/number-guessing-game/` — `main.py` + `README.md`
+- [x] 41. `projects/todo-cli/` — `main.py` + `README.md`
+- [x] 42. `projects/word-counter/` — `main.py` + `README.md`
+- [x] 43. `projects/csv-sales-report/` — `main.py` + `README.md` + sample CSV
+- [x] 44. `projects/password-generator/` — `main.py` + `README.md`
+- [x] 45. `projects/budget-tracker/` — `main.py` + `README.md`
+- [x] 46. `projects/log-analyzer/` — `main.py` + `README.md` + sample log
+- [x] 47. `projects/personal-notes-app/` — `main.py` + `README.md`
 
 Each project: standard library only, clean CLI interface, no over-engineering.
 
