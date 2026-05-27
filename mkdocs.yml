@@ -1,0 +1,146 @@
+site_name: Python Handbook
+site_description: A beginner-friendly Python handbook that teaches Python from zero to practical independent programming
+site_url: https://python-handbook.github.io/python-handbook/
+
+repo_name: python-handbook/python-handbook
+repo_url: https://github.com/neikiri/python-handbook
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+nav:
+  - Home: index.md
+  - Learning Path: learning-path.md
+  - FAQ: faq.md
+  - Handbook:
+    - Introduction: handbook/01-introduction.md
+    - Installation and Setup: handbook/02-installation-and-setup.md
+    - Running Python: handbook/03-running-python.md
+    - Syntax and Structure: handbook/04-syntax-and-structure.md
+    - Values, Variables, and Types: handbook/05-values-variables-types.md
+    - Operators, Expressions, and Input: handbook/06-operators-expressions-input.md
+    - Strings: handbook/07-strings.md
+    - Control Flow: handbook/08-control-flow.md
+    - Collections: handbook/09-collections.md
+    - Functions: handbook/10-functions.md
+    - Comprehensions and Generators: handbook/11-comprehensions-generators.md
+    - Errors and Exceptions: handbook/12-errors-exceptions-debugging.md
+    - Files, Paths, JSON, and CSV: handbook/13-files-paths-json-csv.md
+    - Modules and Packages: handbook/14-modules-packages-imports.md
+    - Virtual Environments: handbook/15-virtual-environments-pip.md
+    - Object-Oriented Programming: handbook/16-oop.md
+    - Standard Library: handbook/17-standard-library.md
+    - Testing and Code Quality: handbook/18-testing-code-quality.md
+    - Type Hints: handbook/19-type-hints.md
+    - CLI Programs: handbook/20-cli-programs.md
+    - Working with Data: handbook/21-working-with-data.md
+    - Practical Projects: handbook/22-practical-projects.md
+    - Where to Go Next: handbook/23-where-to-go-next.md
+  - Exercises:
+    - Introduction: exercises/01-introduction.md
+    - Installation and Setup: exercises/02-installation-and-setup.md
+    - Running Python: exercises/03-running-python.md
+    - Syntax and Structure: exercises/04-syntax-and-structure.md
+    - Values, Variables, and Types: exercises/05-values-variables-types.md
+    - Operators, Expressions, and Input: exercises/06-operators-expressions-input.md
+    - Strings: exercises/07-strings.md
+    - Control Flow: exercises/08-control-flow.md
+    - Collections: exercises/09-collections.md
+    - Functions: exercises/10-functions.md
+    - Comprehensions and Generators: exercises/11-comprehensions-generators.md
+    - Errors and Exceptions: exercises/12-errors-exceptions-debugging.md
+    - Files, Paths, JSON, and CSV: exercises/13-files-paths-json-csv.md
+    - Modules and Packages: exercises/14-modules-packages-imports.md
+    - Virtual Environments: exercises/15-virtual-environments-pip.md
+    - Object-Oriented Programming: exercises/16-oop.md
+    - Standard Library: exercises/17-standard-library.md
+    - Testing and Code Quality: exercises/18-testing-code-quality.md
+    - Type Hints: exercises/19-type-hints.md
+    - CLI Programs: exercises/20-cli-programs.md
+    - Working with Data: exercises/21-working-with-data.md
+    - Practical Projects: exercises/22-practical-projects.md
+    - Where to Go Next: exercises/23-where-to-go-next.md
+  - Solutions:
+    - Introduction: solutions/01-introduction.md
+    - Installation and Setup: solutions/02-installation-and-setup.md
+    - Running Python: solutions/03-running-python.md
+    - Syntax and Structure: solutions/04-syntax-and-structure.md
+    - Values, Variables, and Types: solutions/05-values-variables-types.md
+    - Operators, Expressions, and Input: solutions/06-operators-expressions-input.md
+    - Strings: solutions/07-strings.md
+    - Control Flow: solutions/08-control-flow.md
+    - Collections: solutions/09-collections.md
+    - Functions: solutions/10-functions.md
+    - Comprehensions and Generators: solutions/11-comprehensions-generators.md
+    - Errors and Exceptions: solutions/12-errors-exceptions-debugging.md
+    - Files, Paths, JSON, and CSV: solutions/13-files-paths-json-csv.md
+    - Modules and Packages: solutions/14-modules-packages-imports.md
+    - Virtual Environments: solutions/15-virtual-environments-pip.md
+    - Object-Oriented Programming: solutions/16-oop.md
+    - Standard Library: solutions/17-standard-library.md
+    - Testing and Code Quality: solutions/18-testing-code-quality.md
+    - Type Hints: solutions/19-type-hints.md
+    - CLI Programs: solutions/20-cli-programs.md
+    - Working with Data: solutions/21-working-with-data.md
+    - Practical Projects: solutions/22-practical-projects.md
+    - Where to Go Next: solutions/23-where-to-go-next.md
+  - Projects: projects/index.md
+  - Cheatsheets:
+    - Syntax: cheatsheets/syntax.md
+    - Built-ins: cheatsheets/builtins.md
+    - Strings: cheatsheets/strings.md
+    - Collections: cheatsheets/collections.md
+    - File I/O: cheatsheets/file-io.md
+    - Standard Library: cheatsheets/stdlib.md
+  - References:
+    - Built-in Types: references/builtin-types.md
+    - Built-in Exceptions: references/builtin-exceptions.md
+    - Standard Library Modules: references/stdlib-modules.md
+    - Glossary: references/glossary.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - tables
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/neikiri/python-handbook
+    - icon: fontawesome/brands/python
+      link: https://www.python.org/
+
+watch:
+  - docs
