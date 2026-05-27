@@ -1131,14 +1131,19 @@ Reserve `reduce` for operations that genuinely have no built-in equivalent.
 
 ---
 
+### Further Reading
+
+- [Standard Library](https://docs.python.org/3/library/index.html)
+- [Python Module Index](https://docs.python.org/3/py-modindex.html)
+- [The Python Standard Library by Example](https://docs.python.org/3/library/index.html)
+
 ### What's Next
 
-Chapter 18 covers **testing and code quality** — how to write automated tests
-with `pytest`, measure coverage, and use linters to keep your code clean.
+Ready to continue? Head to the next chapter: **Testing and Code Quality**.
 
----
+→ [Chapter 18 — Testing and Code Quality](18-testing-code-quality.md)
 
 *See also:*
-- [Exercises for Chapter 17](../exercises/17-standard-library.md)
-- [Solutions for Chapter 17](../solutions/17-standard-library.md)
-- [Cheatsheet: Standard Library](../cheatsheets/stdlib.md)
+- [Exercise](../exercises/17-standard-library.md)
+- [Solution](../solutions/17-standard-library.md)
+- [Cheatsheet](../cheatsheets/stdlib.md)

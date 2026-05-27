@@ -935,8 +935,19 @@ something real, and keep going.
 
 ---
 
+### Further Reading
+
+- [Python Documentation](https://docs.python.org/3/)
+- [Python Enhancement Proposals](https://peps.python.org/)
+- [PyPI - Python Package Index](https://pypi.org/)
+
+### What's Next
+
+This is the final handbook chapter. From here, continue by building projects, revisiting weak areas, reading official documentation, and practicing with the exercises and mini projects in this repository.
+
+→ [Project Overview](../projects/index.md)
+
 *See also:*
-- [Exercises for Chapter 23](../exercises/23-where-to-go-next.md)
-- [Solutions for Chapter 23](../solutions/23-where-to-go-next.md)
-- [Learning Path](../learning-path.md)
-- [FAQ](../faq.md)
+- [Exercise](../exercises/23-where-to-go-next.md)
+- [Solution](../solutions/23-where-to-go-next.md)
+- [Cheatsheet](../cheatsheets/stdlib.md)

@@ -1551,7 +1551,19 @@ print(format_phone("2125559876"))   # (212) 555-9876
 
 ---
 
-*Next chapter: [Chapter 08 â€” Control Flow](08-control-flow.md)*
+### Further Reading
 
----
+- [String Methods](https://docs.python.org/3/library/stdtypes.html#string-methods)
+- [String Formatting](https://docs.python.org/3/library/string.html#format-string-syntax)
+- [Text Processing](https://docs.python.org/3/library/text.html)
 
+### What's Next
+
+Ready to continue? Head to the next chapter: **Control Flow**.
+
+→ [Chapter 08 — Control Flow](08-control-flow.md)
+
+*See also:*
+- [Exercise](../exercises/07-strings.md)
+- [Solution](../solutions/07-strings.md)
+- [Cheatsheet](../cheatsheets/strings.md)

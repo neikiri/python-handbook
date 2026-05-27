@@ -873,15 +873,19 @@ import my_module
 
 ---
 
+### Further Reading
+
+- [Modules](https://docs.python.org/3/tutorial/modules.html)
+- [Packages](https://docs.python.org/3/tutorial/modules.html#packages)
+- [Import System](https://docs.python.org/3/reference/import.html)
+
 ### What's Next
 
-Chapter 15 covers **virtual environments and pip** — how to isolate project
-dependencies, install third-party packages, and manage different Python
-environments for different projects.
+Ready to continue? Head to the next chapter: **Virtual Environments and pip**.
 
----
+→ [Chapter 15 — Virtual Environments and pip](15-virtual-environments-pip.md)
 
 *See also:*
-- [Exercises for Chapter 14](../exercises/14-modules-packages-imports.md)
-- [Solutions for Chapter 14](../solutions/14-modules-packages-imports.md)
-- [Cheatsheet: Stdlib](../cheatsheets/stdlib.md)
+- [Exercise](../exercises/14-modules-packages-imports.md)
+- [Solution](../solutions/14-modules-packages-imports.md)
+- [Cheatsheet](../cheatsheets/stdlib.md)

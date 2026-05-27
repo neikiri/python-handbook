@@ -1166,4 +1166,20 @@ most important you will develop as a programmer.
 
 ---
 
-*Next chapter: [Chapter 02 -- Installation and Setup](02-installation-and-setup.md)*
+### Further Reading
+
+- [Python.org](https://www.python.org/)
+- [Python Documentation](https://docs.python.org/3/)
+- [PEP 8 - Style Guide](https://peps.python.org/pep-0008/)
+- [Python Tutorial](https://docs.python.org/3/tutorial/)
+
+### What's Next
+
+Ready to continue? Head to the next chapter: **Installation and Setup**.
+
+→ [Chapter 02 — Installation and Setup](02-installation-and-setup.md)
+
+*See also:*
+- [Exercise](../exercises/01-introduction.md)
+- [Solution](../solutions/01-introduction.md)
+- [Cheatsheet](../cheatsheets/stdlib.md)

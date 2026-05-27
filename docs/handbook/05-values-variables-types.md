@@ -1409,4 +1409,20 @@ This simulates a common pattern when processing user input or data from files.
 
 ---
 
-*Next chapter: [Chapter 06 — Operators, Expressions, and Input](./06-operators-expressions-input.md)*
+### Further Reading
+
+- [Built-in Types](https://docs.python.org/3/library/stdtypes.html)
+- [Data Models](https://docs.python.org/3/reference/datamodel.html)
+- [Built-in Functions](https://docs.python.org/3/library/functions.html)
+- [Built-in Constants](https://docs.python.org/3/library/constants.html)
+
+### What's Next
+
+Ready to continue? Head to the next chapter: **Operators, Expressions, and Input**.
+
+→ [Chapter 06 — Operators, Expressions, and Input](06-operators-expressions-input.md)
+
+*See also:*
+- [Exercise](../exercises/05-values-variables-types.md)
+- [Solution](../solutions/05-values-variables-types.md)
+- [Cheatsheet](../cheatsheets/builtins.md)

@@ -962,14 +962,19 @@ parser.add_argument(
 
 ---
 
+### Further Reading
+
+- [Project Ideas](https://docs.python.org/3/faq/programming.html#faq-programming-questions)
+- [Python Cookbook](https://docs.python.org/3/tutorial/index.html)
+- [Real Python Tutorials](https://realpython.com/)
+
 ### What's Next
 
-Chapter 23 covers **where to go next** — how to keep learning after the
-handbook, what topics to explore, and how to find good resources and
-communities.
+Ready to continue? Head to the next chapter: **Where to Go Next**.
 
----
+→ [Chapter 23 — Where to Go Next](23-where-to-go-next.md)
 
 *See also:*
-- [Exercises for Chapter 22](../exercises/22-practical-projects.md)
-- [Solutions for Chapter 22](../solutions/22-practical-projects.md)
+- [Exercise](../exercises/22-practical-projects.md)
+- [Solution](../solutions/22-practical-projects.md)
+- [Cheatsheet](../cheatsheets/stdlib.md)

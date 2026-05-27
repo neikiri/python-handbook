@@ -1708,15 +1708,20 @@ print(parse_command("fly"))            # Unknown command
 
 ---
 
+### Further Reading
+
+- [Control Flow](https://docs.python.org/3/reference/compound_stmts.html)
+- [if Statements](https://docs.python.org/3/reference/compound_stmts.html#if)
+- [for Statements](https://docs.python.org/3/reference/compound_stmts.html#for)
+- [while Statements](https://docs.python.org/3/reference/compound_stmts.html#while)
+
 ### What's Next
 
-Chapter 09 covers **collections** — lists, tuples, dictionaries, and sets.
-These are the data structures you will use in almost every Python program, and
-they work hand-in-hand with the loops and conditionals you learned here.
+Ready to continue? Head to the next chapter: **Collections**.
 
----
+→ [Chapter 09 — Collections](09-collections.md)
 
 *See also:*
-- [Exercises for Chapter 08](../exercises/08-control-flow.md)
-- [Solutions for Chapter 08](../solutions/08-control-flow.md)
-- [Cheatsheet: Syntax](../cheatsheets/syntax.md)
+- [Exercise](../exercises/08-control-flow.md)
+- [Solution](../solutions/08-control-flow.md)
+- [Cheatsheet](../cheatsheets/syntax.md)

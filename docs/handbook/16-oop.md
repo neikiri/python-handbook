@@ -1094,15 +1094,19 @@ Always define at least `__repr__` for any class you write. If you use
 
 ---
 
+### Further Reading
+
+- [Classes](https://docs.python.org/3/tutorial/classes.html)
+- [Object-Oriented Programming](https://docs.python.org/3/tutorial/oop.html)
+- [Data Classes](https://docs.python.org/3/library/dataclasses.html)
+
 ### What's Next
 
-Chapter 17 covers the **standard library** in more depth — `datetime`,
-`collections`, `itertools`, `pathlib`, `re`, and other modules you will reach
-for in almost every real project.
+Ready to continue? Head to the next chapter: **Standard Library**.
 
----
+→ [Chapter 17 — Standard Library](17-standard-library.md)
 
 *See also:*
-- [Exercises for Chapter 16](../exercises/16-oop.md)
-- [Solutions for Chapter 16](../solutions/16-oop.md)
-- [Cheatsheet: Builtins](../cheatsheets/builtins.md)
+- [Exercise](../exercises/16-oop.md)
+- [Solution](../solutions/16-oop.md)
+- [Cheatsheet](../cheatsheets/stdlib.md)

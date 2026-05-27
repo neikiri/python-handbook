@@ -1233,4 +1233,20 @@ You have just created, activated, and deactivated your first virtual environment
 
 ---
 
-*Next: [Chapter 03 — Running Python Programs](03-running-python.md)*
+### Further Reading
+
+- [Python Downloads](https://www.python.org/downloads/)
+- [Installing Python](https://docs.python.org/3/using/index.html)
+- [pip documentation](https://pip.pypa.io/en/stable/)
+- [PyPI - Python Package Index](https://pypi.org/)
+
+### What's Next
+
+Ready to continue? Head to the next chapter: **Running Python**.
+
+→ [Chapter 03 — Running Python](03-running-python.md)
+
+*See also:*
+- [Exercise](../exercises/02-installation-and-setup.md)
+- [Solution](../solutions/02-installation-and-setup.md)
+- [Cheatsheet](../cheatsheets/stdlib.md)

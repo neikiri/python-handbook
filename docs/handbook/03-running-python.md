@@ -1847,10 +1847,19 @@ Requirements:
 
 ---
 
-## What's Next
+### Further Reading
 
-Chapter 04 covers Python's syntax and structure — indentation, statements, expressions,
-comments, naming conventions, and how Python code is organized at the file level. Once you
-understand how to run Python, understanding how to write it correctly is the natural next step.
+- [Python Interpreter](https://docs.python.org/3/using/cmdline.html)
+- [Running Python](https://docs.python.org/3/using/index.html)
+- [Interactive Mode](https://docs.python.org/3/tutorial/interactive.html)
 
-→ [Chapter 04: Syntax and Structure](04-syntax-and-structure.md)
+### What's Next
+
+Ready to continue? Head to the next chapter: **Syntax and Structure**.
+
+→ [Chapter 04 — Syntax and Structure](04-syntax-and-structure.md)
+
+*See also:*
+- [Exercise](../exercises/03-running-python.md)
+- [Solution](../solutions/03-running-python.md)
+- [Cheatsheet](../cheatsheets/stdlib.md)

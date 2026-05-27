@@ -929,15 +929,20 @@ print(restored)   # {'1': 'one', '2': 'two'}  — still strings
 
 ---
 
+### Further Reading
+
+- [File Objects](https://docs.python.org/3/library/stdtypes.html#file-objects)
+- [pathlib - Object-oriented filesystem paths](https://docs.python.org/3/library/pathlib.html)
+- [json - JSON encoder and decoder](https://docs.python.org/3/library/json.html)
+- [csv - CSV File Reading and Writing](https://docs.python.org/3/library/csv.html)
+
 ### What's Next
 
-Chapter 14 covers **modules and packages** — how Python's import system works,
-how to organize your code into reusable modules, and how to structure a
-package with multiple files.
+Ready to continue? Head to the next chapter: **Modules, Packages, and Imports**.
 
----
+→ [Chapter 14 — Modules, Packages, and Imports](14-modules-packages-imports.md)
 
 *See also:*
-- [Exercises for Chapter 13](../exercises/13-files-paths-json-csv.md)
-- [Solutions for Chapter 13](../solutions/13-files-paths-json-csv.md)
-- [Cheatsheet: File I/O](../cheatsheets/file-io.md)
+- [Exercise](../exercises/13-files-paths-json-csv.md)
+- [Solution](../solutions/13-files-paths-json-csv.md)
+- [Cheatsheet](../cheatsheets/file-io.md)

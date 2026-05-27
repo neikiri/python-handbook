@@ -1076,15 +1076,19 @@ def process(x: int) -> int:
 
 ---
 
+### Further Reading
+
+- [Function Definitions](https://docs.python.org/3/reference/compound_stmts.html#function-definitions)
+- [Function Attributes](https://docs.python.org/3/reference/datamodel.html#function-objects)
+- [Lambda Expressions](https://docs.python.org/3/reference/expressions.html#lambda)
+
 ### What's Next
 
-Chapter 11 covers **comprehensions and generators** — concise syntax for
-building collections and lazy evaluation for processing large sequences. These
-are among the most distinctively Pythonic features of the language.
+Ready to continue? Head to the next chapter: **Comprehensions and Generators**.
 
----
+→ [Chapter 11 — Comprehensions and Generators](11-comprehensions-generators.md)
 
 *See also:*
-- [Exercises for Chapter 10](../exercises/10-functions.md)
-- [Solutions for Chapter 10](../solutions/10-functions.md)
-- [Cheatsheet: Builtins](../cheatsheets/builtins.md)
+- [Exercise](../exercises/10-functions.md)
+- [Solution](../solutions/10-functions.md)
+- [Cheatsheet](../cheatsheets/stdlib.md)

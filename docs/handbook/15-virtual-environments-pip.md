@@ -869,34 +869,19 @@ rm -rf venv
 
 ---
 
-### What's Next: Modern Tooling
+### Further Reading
 
-The `venv` + `pip` workflow described in this chapter is the standard,
-built-in approach and works well for most projects. As you grow as a Python
-developer, you may encounter more modern tools that build on these ideas:
+- [venv - Creation of virtual environments](https://docs.python.org/3/library/venv.html)
+- [pip User Guide](https://pip.pypa.io/en/stable/user_guide/)
+- [Virtual Environments](https://docs.python.org/3/tutorial/venv.html)
 
-**uv** — a very fast package installer and resolver written in Rust. It is a
-drop-in replacement for `pip` and `venv` with significantly faster installs.
-`uv venv` and `uv pip install` work the same way as the commands in this
-chapter.
+### What's Next
 
-**Poetry** — a dependency management and packaging tool that uses
-`pyproject.toml` instead of `requirements.txt`. It handles virtual
-environments automatically and distinguishes between direct and transitive
-dependencies more cleanly.
+Ready to continue? Head to the next chapter: **Object-Oriented Programming**.
 
-**pyproject.toml** — the modern standard for Python project configuration,
-defined in [PEP 518](https://peps.python.org/pep-0518/) and
-[PEP 621](https://peps.python.org/pep-0621/). It replaces `setup.py` and
-`setup.cfg` for packaging, and many tools (pytest, ruff, mypy) read their
-configuration from it.
-
-For now, `venv` and `pip` are all you need. Once you are comfortable with
-them, exploring `uv` or `Poetry` is a natural next step.
-
----
+→ [Chapter 16 — Object-Oriented Programming](16-oop.md)
 
 *See also:*
-- [Exercises for Chapter 15](../exercises/15-virtual-environments-pip.md)
-- [Solutions for Chapter 15](../solutions/15-virtual-environments-pip.md)
-- [Chapter 14: Modules and Packages](14-modules-packages-imports.md)
+- [Exercise](../exercises/15-virtual-environments-pip.md)
+- [Solution](../solutions/15-virtual-environments-pip.md)
+- [Cheatsheet](../cheatsheets/stdlib.md)

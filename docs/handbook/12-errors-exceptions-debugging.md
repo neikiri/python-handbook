@@ -906,15 +906,19 @@ except SomeError:
 
 ---
 
+### Further Reading
+
+- [Exceptions](https://docs.python.org/3/library/exceptions.html)
+- [Error Messages](https://docs.python.org/3/tutorial/errors.html)
+- [The Debugging Process](https://docs.python.org/3/library/pdb.html)
+
 ### What's Next
 
-Chapter 13 covers **files, paths, JSON, and CSV** — reading and writing files,
-navigating the filesystem with `pathlib`, and working with the two most common
-data formats you will encounter in real programs.
+Ready to continue? Head to the next chapter: **Files, Paths, JSON, and CSV**.
 
----
+→ [Chapter 13 — Files, Paths, JSON, and CSV](13-files-paths-json-csv.md)
 
 *See also:*
-- [Exercises for Chapter 12](../exercises/12-errors-exceptions-debugging.md)
-- [Solutions for Chapter 12](../solutions/12-errors-exceptions-debugging.md)
-- [Reference: Built-in Exceptions](../references/builtin-exceptions.md)
+- [Exercise](../exercises/12-errors-exceptions-debugging.md)
+- [Solution](../solutions/12-errors-exceptions-debugging.md)
+- [Cheatsheet](../cheatsheets/stdlib.md)

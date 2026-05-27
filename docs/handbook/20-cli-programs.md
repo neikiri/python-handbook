@@ -978,15 +978,19 @@ See Chapter 17 for the full `logging` API.
 
 ---
 
+### Further Reading
+
+- [argparse - Command-line option parsing](https://docs.python.org/3/library/argparse.html)
+- [sys - System-specific parameters](https://docs.python.org/3/library/sys.html)
+- [os - Operating system interface](https://docs.python.org/3/library/os.html)
+
 ### What's Next
 
-Chapter 21 covers **working with data** — reading and processing CSV and JSON
-files, transforming tabular data, and building small data pipelines using only
-the standard library.
+Ready to continue? Head to the next chapter: **Working with Data**.
 
----
+→ [Chapter 21 — Working with Data](21-working-with-data.md)
 
 *See also:*
-- [Exercises for Chapter 20](../exercises/20-cli-programs.md)
-- [Solutions for Chapter 20](../solutions/20-cli-programs.md)
-- [Cheatsheet: Standard Library](../cheatsheets/stdlib.md)
+- [Exercise](../exercises/20-cli-programs.md)
+- [Solution](../solutions/20-cli-programs.md)
+- [Cheatsheet](../cheatsheets/stdlib.md)

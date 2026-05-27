@@ -880,18 +880,19 @@ output = "\n".join(lines)
 
 ---
 
+### Further Reading
+
+- [Data Structures](https://docs.python.org/3/tutorial/datastructures.html)
+- [Working with Text Data](https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str)
+- [Working with Binary Data](https://docs.python.org/3/library/stdtypes.html#bytes-objects)
+
 ### What's Next
 
-Chapter 22 covers **practical projects** — putting everything together to
-build small but complete programs: a contact manager, a budget tracker, and
-a simple task list. Each project uses the patterns from this chapter and
-earlier ones.
+Ready to continue? Head to the next chapter: **Practical Projects**.
 
----
+→ [Chapter 22 — Practical Projects](22-practical-projects.md)
 
 *See also:*
-- [Exercises for Chapter 21](../exercises/21-working-with-data.md)
-- [Solutions for Chapter 21](../solutions/21-working-with-data.md)
-- [Cheatsheet: File I/O](../cheatsheets/file-io.md)
-- [Chapter 13: Files, Paths, JSON, and CSV](13-files-paths-json-csv.md)
-- [Chapter 09: Collections](09-collections.md)
+- [Exercise](../exercises/21-working-with-data.md)
+- [Solution](../solutions/21-working-with-data.md)
+- [Cheatsheet](../cheatsheets/stdlib.md)

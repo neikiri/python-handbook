@@ -887,14 +887,19 @@ A common mistake is reversing the order and getting unexpected results.
 
 ---
 
+### Further Reading
+
+- [Comprehensions](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions)
+- [Generator Expressions](https://docs.python.org/3/reference/expressions.html#generator-expressions)
+- [Iterators](https://docs.python.org/3/tutorial/classes.html#iterators)
+
 ### What's Next
 
-Chapter 12 covers **errors, exceptions, and debugging** — how to handle things
-that go wrong, write defensive code, and track down bugs when they happen.
+Ready to continue? Head to the next chapter: **Errors, Exceptions, and Debugging**.
 
----
+→ [Chapter 12 — Errors, Exceptions, and Debugging](12-errors-exceptions-debugging.md)
 
 *See also:*
-- [Exercises for Chapter 11](../exercises/11-comprehensions-generators.md)
-- [Solutions for Chapter 11](../solutions/11-comprehensions-generators.md)
-- [Cheatsheet: Syntax](../cheatsheets/syntax.md)
+- [Exercise](../exercises/11-comprehensions-generators.md)
+- [Solution](../solutions/11-comprehensions-generators.md)
+- [Cheatsheet](../cheatsheets/stdlib.md)

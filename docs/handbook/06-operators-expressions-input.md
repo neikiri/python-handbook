@@ -1313,4 +1313,19 @@ user's choice, ask for the value, and print the result. Handle invalid input.
 
 ---
 
-*Next chapter: [Chapter 07 — Strings](07-strings.md)*
+### Further Reading
+
+- [Expressions](https://docs.python.org/3/reference/expressions.html)
+- [Operator Precedence](https://docs.python.org/3/reference/expressions.html#operator-precedence)
+- [Input and Output](https://docs.python.org/3/tutorial/inputoutput.html)
+
+### What's Next
+
+Ready to continue? Head to the next chapter: **Strings**.
+
+→ [Chapter 07 — Strings](07-strings.md)
+
+*See also:*
+- [Exercise](../exercises/06-operators-expressions-input.md)
+- [Solution](../solutions/06-operators-expressions-input.md)
+- [Cheatsheet](../cheatsheets/syntax.md)

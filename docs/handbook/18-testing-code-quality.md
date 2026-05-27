@@ -1101,16 +1101,19 @@ function names.
 
 ---
 
+### Further Reading
+
+- [unittest - Unit Testing Framework](https://docs.python.org/3/library/unittest.html)
+- [pytest Documentation](https://docs.pytest.org/)
+- [code quality - Pylint](https://pylint.readthedocs.io/)
+
 ### What's Next
 
-Chapter 19 covers **type hints** — how to annotate function parameters and
-return types, use collection types like `list[str]` and `dict[str, int]`,
-express optional values with `str | None`, and run mypy to catch type errors
-before your code runs.
+Ready to continue? Head to the next chapter: **Type Hints**.
 
----
+→ [Chapter 19 — Type Hints](19-type-hints.md)
 
 *See also:*
-- [Exercises for Chapter 18](../exercises/18-testing-code-quality.md)
-- [Solutions for Chapter 18](../solutions/18-testing-code-quality.md)
-- [Cheatsheet: Syntax](../cheatsheets/syntax.md)
+- [Exercise](../exercises/18-testing-code-quality.md)
+- [Solution](../solutions/18-testing-code-quality.md)
+- [Cheatsheet](../cheatsheets/stdlib.md)

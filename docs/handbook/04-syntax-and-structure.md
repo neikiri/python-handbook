@@ -1711,15 +1711,19 @@ formatting automatically.
 
 ---
 
-## Further Reading
+### Further Reading
 
-- [PEP 8 — Style Guide for Python Code](https://peps.python.org/pep-0008/)
-- [PEP 20 — The Zen of Python](https://peps.python.org/pep-0020/)
-- [PEP 257 — Docstring Conventions](https://peps.python.org/pep-0257/)
-- [black documentation](https://black.readthedocs.io/)
-- [autopep8 on PyPI](https://pypi.org/project/autopep8/)
-- Python docs: [`keyword` module](https://docs.python.org/3/library/keyword.html)
+- [Python Grammar](https://docs.python.org/3/reference/grammar.html)
+- [Lexical Analysis](https://docs.python.org/3/reference/lexical.html)
+- [Python Grammar](https://docs.python.org/3/reference/introduction.html)
 
----
+### What's Next
 
-*Next chapter: [Chapter 05 — Values, Variables, and Types](05-values-variables-types.md)*
+Ready to continue? Head to the next chapter: **Values, Variables, and Types**.
+
+→ [Chapter 05 — Values, Variables, and Types](05-values-variables-types.md)
+
+*See also:*
+- [Exercise](../exercises/04-syntax-and-structure.md)
+- [Solution](../solutions/04-syntax-and-structure.md)
+- [Cheatsheet](../cheatsheets/syntax.md)

@@ -919,15 +919,19 @@ if user_id in valid_ids:              # O(1) lookup
 
 ---
 
+### Further Reading
+
+- [Sequence Types](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range)
+- [Mapping Types](https://docs.python.org/3/library/stdtypes.html#mapping-types-dict)
+- [Set Types](https://docs.python.org/3/library/stdtypes.html#set-types-set-frozenset)
+
 ### What's Next
 
-Chapter 10 covers **functions** — how to define them, pass arguments, return
-values, and use them as first-class objects. Functions are the primary tool
-for organizing code and avoiding repetition.
+Ready to continue? Head to the next chapter: **Functions**.
 
----
+→ [Chapter 10 — Functions](10-functions.md)
 
 *See also:*
-- [Exercises for Chapter 09](../exercises/09-collections.md)
-- [Solutions for Chapter 09](../solutions/09-collections.md)
-- [Cheatsheet: Collections](../cheatsheets/collections.md)
+- [Exercise](../exercises/09-collections.md)
+- [Solution](../solutions/09-collections.md)
+- [Cheatsheet](../cheatsheets/collections.md)

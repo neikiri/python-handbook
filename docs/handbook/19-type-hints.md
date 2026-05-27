@@ -937,16 +937,20 @@ but new code should use the modern syntax.
 
 ---
 
+### Further Reading
+
+- [typing - Type Hints](https://docs.python.org/3/library/typing.html)
+- [PEP 484 - Type Hints](https://peps.python.org/pep-0484/)
+- [PEP 585 - Type Hinting Generics In Standard Collections](https://peps.python.org/pep-0585/)
+- [PEP 563 - Postponed Evaluation of Annotations](https://peps.python.org/pep-0563/)
+
 ### What's Next
 
-Chapter 20 covers **command-line programs** — how to read arguments with
-`sys.argv`, build structured CLI tools with `argparse`, add subcommands,
-handle exit codes correctly, and follow practical patterns for real-world
-scripts.
+Ready to continue? Head to the next chapter: **CLI Programs**.
 
----
+→ [Chapter 20 — CLI Programs](20-cli-programs.md)
 
 *See also:*
-- [Exercises for Chapter 19](../exercises/19-type-hints.md)
-- [Solutions for Chapter 19](../solutions/19-type-hints.md)
-- [Cheatsheet: Syntax](../cheatsheets/syntax.md)
+- [Exercise](../exercises/19-type-hints.md)
+- [Solution](../solutions/19-type-hints.md)
+- [Cheatsheet](../cheatsheets/stdlib.md)
