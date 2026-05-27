@@ -1215,7 +1215,7 @@ print(rest)    # [2, 3, 4, 5]
 
 Work through these tasks to reinforce the concepts in this chapter. Try each
 one before looking at the solutions in
-[`docs/solutions/05-values-variables-types.md`](../../solutions/05-values-variables-types.md).
+[`docs/solutions/05-values-variables-types.md`](../solutions/05-values-variables-types.md).
 
 ---
 

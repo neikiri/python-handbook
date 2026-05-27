@@ -1644,7 +1644,7 @@ Write a small Python module called `temperature_converter.py` that:
 ---
 
 Solutions for these tasks are in
-[`docs/solutions/04-syntax-and-structure.md`](../../solutions/04-syntax-and-structure.md).
+[`docs/solutions/04-syntax-and-structure.md`](../solutions/04-syntax-and-structure.md).
 
 ---
 

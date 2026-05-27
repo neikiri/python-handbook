@@ -1717,6 +1717,6 @@ they work hand-in-hand with the loops and conditionals you learned here.
 ---
 
 *See also:*
-- [Exercises for Chapter 08](../../exercises/08-control-flow.md)
-- [Solutions for Chapter 08](../../solutions/08-control-flow.md)
-- [Cheatsheet: Syntax](../../cheatsheets/syntax.md)
+- [Exercises for Chapter 08](../exercises/08-control-flow.md)
+- [Solutions for Chapter 08](../solutions/08-control-flow.md)
+- [Cheatsheet: Syntax](../cheatsheets/syntax.md)
