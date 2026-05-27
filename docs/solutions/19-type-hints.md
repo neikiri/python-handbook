@@ -344,7 +344,6 @@ mypy --config-file=mypy.ini strict_types.py
 ---
 
 ## What to Review Next
-
-- Chapter 16: OOP — applying type hints to class hierarchies
-- Chapter 18: Testing and Code Quality — using mypy in CI pipelines
-- Chapter 20: CLI Programs — type-hinting argument parsers and command handlers
+- Review the matching handbook chapter if any exercise felt difficult.
+- Revisit the matching exercise set and try solving it again without looking at the solution.
+- Continue with the next handbook chapter: [Chapter 20 - CLI Programs](../handbook/20-cli-programs.md)

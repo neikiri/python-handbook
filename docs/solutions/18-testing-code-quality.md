@@ -460,7 +460,6 @@ jobs:
 ---
 
 ## What to Review Next
-
-- Chapter 12: Errors, Exceptions, and Debugging — testing that exceptions are raised correctly
-- Chapter 16: OOP — testing classes with fixtures
-- Chapter 22: Practical Projects — adding tests to complete applications
+- Review the matching handbook chapter if any exercise felt difficult.
+- Revisit the matching exercise set and try solving it again without looking at the solution.
+- Continue with the next handbook chapter: [Chapter 19 - Type Hints](../handbook/19-type-hints.md)

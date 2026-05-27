@@ -382,7 +382,6 @@ This pattern — a `main()` function called from `if __name__ == "__main__":` �
 ---
 
 ## What to Review Next
-
-- Chapter 04: Syntax and Structure — indentation, naming, and code organization
-- Chapter 05: Values, Variables, and Types — how Python stores and manages data
-- Chapter 12: Errors, Exceptions, and Debugging — a full treatment of error handling
+- Review the matching handbook chapter if any exercise felt difficult.
+- Revisit the matching exercise set and try solving it again without looking at the solution.
+- Continue with the next handbook chapter: [Chapter 04 - Syntax and Structure](../handbook/04-syntax-and-structure.md)

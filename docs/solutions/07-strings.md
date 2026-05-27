@@ -395,7 +395,6 @@ def clean_phone(phone):
 ---
 
 ## What to Review Next
-
-- Chapter 08: Control Flow — conditionals and loops
-- Chapter 09: Collections — lists, tuples, sets, and dictionaries
-- Chapter 11: Comprehensions and Generators — a more concise way to process strings and collections
+- Review the matching handbook chapter if any exercise felt difficult.
+- Revisit the matching exercise set and try solving it again without looking at the solution.
+- Continue with the next handbook chapter: [Chapter 08 - Control Flow](../handbook/08-control-flow.md)

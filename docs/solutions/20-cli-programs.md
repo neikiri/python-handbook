@@ -450,7 +450,6 @@ if __name__ == "__main__":
 ---
 
 ## What to Review Next
-
-- Chapter 13: Files, Paths, JSON, and CSV — file handling in CLI programs
-- Chapter 18: Testing and Code Quality — testing CLI programs with pytest
-- Chapter 22: Practical Projects — building complete CLI applications
+- Review the matching handbook chapter if any exercise felt difficult.
+- Revisit the matching exercise set and try solving it again without looking at the solution.
+- Continue with the next handbook chapter: [Chapter 21 - Working with Data](../handbook/21-working-with-data.md)

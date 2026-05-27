@@ -349,7 +349,6 @@ class Quiz:
 ---
 
 ## What to Review Next
-
-- Chapter 18: Testing and Code Quality — adding tests to these projects
-- Chapter 19: Type Hints — adding type annotations to the project classes
-- Chapter 23: Where to Go Next — extending these projects with web interfaces, databases, or APIs
+- Review the matching handbook chapter if any exercise felt difficult.
+- Revisit the matching exercise set and try solving it again without looking at the solution.
+- Continue with the projects section: [Projects Overview](../projects/index.md)

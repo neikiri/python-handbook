@@ -390,7 +390,6 @@ except Exception as e:
 ---
 
 ## What to Review Next
-
-- Chapter 13: Files, Paths, JSON, and CSV — applying exception handling to file operations
-- Chapter 18: Testing and Code Quality — testing that exceptions are raised correctly
-- Chapter 22: Practical Projects — building applications with robust error handling
+- Review the matching handbook chapter if any exercise felt difficult.
+- Revisit the matching exercise set and try solving it again without looking at the solution.
+- Continue with the next handbook chapter: [Chapter 13 - Files, Paths, JSON, CSV](../handbook/13-files-paths-json-csv.md)

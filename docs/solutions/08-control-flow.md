@@ -443,7 +443,6 @@ else:
 ---
 
 ## What to Review Next
-
-- Chapter 09: Collections — lists, tuples, sets, and dictionaries
-- Chapter 10: Functions — organizing code into reusable pieces
-- Chapter 11: Comprehensions and Generators — a concise way to build collections with loops
+- Review the matching handbook chapter if any exercise felt difficult.
+- Revisit the matching exercise set and try solving it again without looking at the solution.
+- Continue with the next handbook chapter: [Chapter 09 - Collections](../handbook/09-collections.md)

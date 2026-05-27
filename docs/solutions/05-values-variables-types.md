@@ -404,7 +404,6 @@ Catching both covers the common failure cases.
 ---
 
 ## What to Review Next
-
-- Chapter 06: Operators, Expressions, and Input — arithmetic, comparisons, and user input
-- Chapter 07: Strings — string methods, formatting, and manipulation
-- Chapter 09: Collections — lists, tuples, sets, and dictionaries in depth
+- Review the matching handbook chapter if any exercise felt difficult.
+- Revisit the matching exercise set and try solving it again without looking at the solution.
+- Continue with the next handbook chapter: [Chapter 06 - Operators, Expressions, Input](../handbook/06-operators-expressions-input.md)

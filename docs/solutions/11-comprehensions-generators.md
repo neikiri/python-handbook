@@ -325,7 +325,6 @@ total = sum(n ** 2 for n in range(1000))
 ---
 
 ## What to Review Next
-
-- Chapter 12: Errors, Exceptions, and Debugging — handling errors in data pipelines
-- Chapter 17: Standard Library — `itertools` for advanced iteration patterns
-- Chapter 21: Working with Data — applying comprehensions and generators to real datasets
+- Review the matching handbook chapter if any exercise felt difficult.
+- Revisit the matching exercise set and try solving it again without looking at the solution.
+- Continue with the next handbook chapter: [Chapter 12 - Errors, Exceptions, Debugging](../handbook/12-errors-exceptions-debugging.md)

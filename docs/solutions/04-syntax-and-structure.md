@@ -573,7 +573,6 @@ if __name__ == "__main__":
 ---
 
 ## What to Review Next
-
-- Chapter 05: Values, Variables, and Types — how Python stores data
-- Chapter 06: Operators, Expressions, and Input — arithmetic, comparisons, and user input
-- PEP 8 (online) — the full style guide: https://peps.python.org/pep-0008/
+- Review the matching handbook chapter if any exercise felt difficult.
+- Revisit the matching exercise set and try solving it again without looking at the solution.
+- Continue with the next handbook chapter: [Chapter 05 - Values, Variables, Types](../handbook/05-values-variables-types.md)

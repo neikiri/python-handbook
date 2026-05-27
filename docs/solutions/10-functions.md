@@ -496,7 +496,6 @@ def digits_sum(n: int) -> int:
 ---
 
 ## What to Review Next
-
-- Chapter 11: Comprehensions and Generators — concise ways to build collections
-- Chapter 12: Errors, Exceptions, and Debugging — handling errors in functions
-- Chapter 16: Object-Oriented Programming — organizing functions and data into classes
+- Review the matching handbook chapter if any exercise felt difficult.
+- Revisit the matching exercise set and try solving it again without looking at the solution.
+- Continue with the next handbook chapter: [Chapter 11 - Comprehensions and Generators](../handbook/11-comprehensions-generators.md)

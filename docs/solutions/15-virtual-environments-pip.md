@@ -316,7 +316,6 @@ build/
 ---
 
 ## What to Review Next
-
-- Chapter 14: Modules, Packages, and Imports — organizing your project code
-- Chapter 18: Testing and Code Quality — running tests in your virtual environment
-- Chapter 22: Practical Projects — applying environment management to real projects
+- Review the matching handbook chapter if any exercise felt difficult.
+- Revisit the matching exercise set and try solving it again without looking at the solution.
+- Continue with the next handbook chapter: [Chapter 16 - OOP](../handbook/16-oop.md)

@@ -403,7 +403,6 @@ print(f"Most popular: {most_common[0][0]} ({most_common[0][1]} units)")
 ---
 
 ## What to Review Next
-
-- Chapter 13: Files, Paths, JSON, and CSV — reading and writing data files
-- Chapter 17: Standard Library — `collections.Counter` and `collections.defaultdict` for aggregation
-- Chapter 22: Practical Projects — building complete data processing applications
+- Review the matching handbook chapter if any exercise felt difficult.
+- Revisit the matching exercise set and try solving it again without looking at the solution.
+- Continue with the next handbook chapter: [Chapter 22 - Practical Projects](../handbook/22-practical-projects.md)

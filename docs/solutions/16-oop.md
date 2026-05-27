@@ -400,7 +400,6 @@ class Dog:
 ---
 
 ## What to Review Next
-
-- Chapter 17: Standard Library — using `dataclasses` for simpler data containers
-- Chapter 18: Testing and Code Quality — testing classes with pytest
-- Chapter 19: Type Hints — adding type annotations to class methods
+- Review the matching handbook chapter if any exercise felt difficult.
+- Revisit the matching exercise set and try solving it again without looking at the solution.
+- Continue with the next handbook chapter: [Chapter 17 - Standard Library](../handbook/17-standard-library.md)

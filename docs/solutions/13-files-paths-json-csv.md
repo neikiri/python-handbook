@@ -401,7 +401,6 @@ Path("users.json").unlink()
 ---
 
 ## What to Review Next
-
-- Chapter 12: Errors, Exceptions, and Debugging — handling file errors gracefully
-- Chapter 14: Modules, Packages, and Imports — organizing file-handling code into modules
-- Chapter 21: Working with Data — applying file I/O to real data processing tasks
+- Review the matching handbook chapter if any exercise felt difficult.
+- Revisit the matching exercise set and try solving it again without looking at the solution.
+- Continue with the next handbook chapter: [Chapter 14 - Modules, Packages, Imports](../handbook/14-modules-packages-imports.md)

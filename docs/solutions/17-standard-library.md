@@ -374,7 +374,6 @@ for _ in range(3):
 ---
 
 ## What to Review Next
-
-- Chapter 11: Comprehensions and Generators — `itertools` pairs well with generator expressions
-- Chapter 18: Testing and Code Quality — testing code that uses `datetime` and `random`
-- Chapter 21: Working with Data — applying `Counter`, `defaultdict`, and `datetime` to real datasets
+- Review the matching handbook chapter if any exercise felt difficult.
+- Revisit the matching exercise set and try solving it again without looking at the solution.
+- Continue with the next handbook chapter: [Chapter 18 - Testing, Code Quality](../handbook/18-testing-code-quality.md)

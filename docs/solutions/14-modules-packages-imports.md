@@ -411,7 +411,6 @@ print(config.DEBUG)       # True — reset to original value
 ---
 
 ## What to Review Next
-
-- Chapter 15: Virtual Environments and pip — managing dependencies for your modules
-- Chapter 17: Standard Library — exploring the built-in modules available to you
-- Chapter 18: Testing and Code Quality — testing your modules with pytest
+- Review the matching handbook chapter if any exercise felt difficult.
+- Revisit the matching exercise set and try solving it again without looking at the solution.
+- Continue with the next handbook chapter: [Chapter 15 - Virtual Environments, pip](../handbook/15-virtual-environments-pip.md)

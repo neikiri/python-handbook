@@ -371,7 +371,6 @@ def is_valid_password(password):
 ---
 
 ## What to Review Next
-
-- Chapter 07: Strings — string methods, formatting, and manipulation
-- Chapter 08: Control Flow — conditionals and loops
-- Chapter 12: Errors, Exceptions, and Debugging — a full treatment of `try/except`
+- Review the matching handbook chapter if any exercise felt difficult.
+- Revisit the matching exercise set and try solving it again without looking at the solution.
+- Continue with the next handbook chapter: [Chapter 07 - Strings](../handbook/07-strings.md)

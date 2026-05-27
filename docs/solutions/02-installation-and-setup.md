@@ -314,6 +314,6 @@ This returns you to the global Python environment.
 ---
 
 ## What to Review Next
-
-- Chapter 03: Running Python Programs — command-line arguments, the `__main__` guard, and reading error messages
-- Chapter 04: Syntax and Structure — indentation, naming conventions, and code organization
+- Review the matching handbook chapter if any exercise felt difficult.
+- Revisit the matching exercise set and try solving it again without looking at the solution.
+- Continue with the next handbook chapter: [Chapter 03 - Running Python](../handbook/03-running-python.md)

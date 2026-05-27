@@ -147,7 +147,6 @@ Choose JavaScript when: building anything that runs in a browser, or when you wa
 ---
 
 ## What to Review Next
-
-- Chapter 02: Installation and Setup — get Python running on your machine
-- Chapter 03: Running Python Programs — learn the different ways to execute code
-- Chapter 04: Syntax and Structure — learn Python's rules for writing code
+- Review the matching handbook chapter if any exercise felt difficult.
+- Revisit the matching exercise set and try solving it again without looking at the solution.
+- Continue with the next handbook chapter: [Chapter 02 - Installation and Setup](../handbook/02-installation-and-setup.md)

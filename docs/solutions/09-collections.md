@@ -444,7 +444,6 @@ The key insight: we check if the current number is exactly one more than the las
 ---
 
 ## What to Review Next
-
-- Chapter 10: Functions — organizing code into reusable pieces
-- Chapter 11: Comprehensions and Generators — concise ways to build and process collections
-- Chapter 12: Errors, Exceptions, and Debugging — handling `KeyError`, `IndexError`, and other collection errors
+- Review the matching handbook chapter if any exercise felt difficult.
+- Revisit the matching exercise set and try solving it again without looking at the solution.
+- Continue with the next handbook chapter: [Chapter 10 - Functions](../handbook/10-functions.md)
