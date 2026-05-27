@@ -1,0 +1,10 @@
+This is a sample text file for the file examples.
+It contains multiple lines of text.
+
+Line 3 has some content.
+Line 4 is another line.
+
+The file is used to demonstrate:
+- Reading text files
+- Writing text files
+- Working with file paths
