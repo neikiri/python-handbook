@@ -4,14 +4,12 @@
   "description": "Run MkDocs build verification after documentation or configuration changes",
   "version": "1",
   "when": {
-    "type": "fileEdited",
-    "patterns": [
-      "docs/**/*.md",
-      "mkdocs.yml"
-    ]
+    "type": "userTriggered"
   },
   "then": {
     "type": "runCommand",
     "command": "python -m mkdocs build"
-  }
+  },
+  "workspaceFolderName": "python-handbook",
+  "shortName": "docs-mkdocs-build"
 }

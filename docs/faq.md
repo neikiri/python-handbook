@@ -139,11 +139,9 @@ The mini projects help you apply what you've learned to real problems. They're d
 
 For the mini projects, we recommend using only the standard library to keep things simple. Once you're comfortable with the basics, feel free to explore third-party libraries.
 
-## Contributing Questions
+## Contributing
 
-### How can I contribute?
-
-See [CONTRIBUTING.md](../CONTRIBUTING.md) for details. You can:
+This is an open-source project! Contributions are welcome:
 
 - Report bugs
 - Suggest improvements
@@ -151,13 +149,15 @@ See [CONTRIBUTING.md](../CONTRIBUTING.md) for details. You can:
 - Fix errors
 - Translate content
 
-### Do I need to be an expert to contribute?
+See [CONTRIBUTING.md](https://github.com/python-handbook/python-handbook/blob/main/CONTRIBUTING.md) for details.
 
-No! We welcome contributions from all skill levels. Even small fixes and improvements are valuable.
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/python-handbook/python-handbook/blob/main/LICENSE) file for details.
 
 ## Still Have Questions?
 
-- Check the [Handbook](handbook/) for more detailed explanations
-- Browse the [Exercises](exercises/) for practical examples
+- Check the [Handbook](handbook/README.md) for more detailed explanations
+- Browse the [Exercises](exercises/README.md) for practical examples
 - Ask in community forums
 - Open an issue on GitHub

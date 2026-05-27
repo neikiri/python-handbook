@@ -4,15 +4,12 @@
   "description": "Runs python -m compileall on examples, projects, and tests directories after Python files are modified",
   "version": "1",
   "when": {
-    "type": "fileEdited",
-    "patterns": [
-      "examples/**/*.py",
-      "projects/**/*.py",
-      "tests/**/*.py"
-    ]
+    "type": "userTriggered"
   },
   "then": {
     "type": "runCommand",
     "command": "python -m compileall examples projects tests"
-  }
+  },
+  "workspaceFolderName": "python-handbook",
+  "shortName": "python-compile-check"
 }
