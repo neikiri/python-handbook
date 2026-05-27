@@ -75,6 +75,18 @@ Code rules:
 - Use pytest for tests.
 - Do not over-engineer beginner projects.
 
+## Anti-loop rules
+
+- Never repeatedly rewrite the same files in one session.
+- For content generation, perform at most one full edit pass per file.
+- If validation fails, report the issue and ask before attempting another broad rewrite.
+- Do not chase exact line-count targets.
+- Treat line budgets as soft guidance, not strict requirements.
+- Prefer small targeted fixes over repeated regeneration.
+- When asked to edit a set of files, modify only the requested files.
+- Stop after completing the requested scope and summarize changes.
+- Do not automatically run long validation loops after content-only edits.
+
 Documentation rules:
 - Use Markdown.
 - Use fenced code blocks with correct language labels: python, bash, text, markdown, yaml, toml.
