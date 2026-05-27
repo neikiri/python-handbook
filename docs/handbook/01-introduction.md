@@ -177,10 +177,10 @@ the Python Steering Council, a five-person elected body that guides the language
 
 ---
 
-### 3.3 Why Python Is Popular
+### 3.3 Why Python Became Popular
 
-Python did not become popular by accident. Several concrete properties explain its widespread
-adoption.
+Python did not become popular by accident. Several concrete properties explain why it gained
+widespread adoption and continues to grow.
 
 **Readability**
 
@@ -250,10 +250,10 @@ carelessly. This stability makes Python a safe investment for long-term projects
 
 ---
 
-### 3.4 What Python Is Used For
+### 3.4 Where Python Is Used Today
 
-Python's versatility means it shows up in many different fields. Here is a realistic picture of
-where Python is actually used in practice.
+Python's versatility means it shows up in many different fields today. Here is a realistic
+picture of the domains and industries where Python is actually used in practice.
 
 **Web development**
 
