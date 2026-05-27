@@ -60,9 +60,9 @@ Each chapter must follow the 7-section structure: Overview, What you will learn,
 - [x] 23. `docs/handbook/18-testing-code-quality.md`
 - [x] 24. `docs/handbook/19-type-hints.md`
 - [x] 25. `docs/handbook/20-cli-programs.md`
-- [~] 26. `docs/handbook/21-working-with-data.md`
-- [~] 27. `docs/handbook/22-practical-projects.md`
-- [~] 28. `docs/handbook/23-where-to-go-next.md`
+- [x] 26. `docs/handbook/21-working-with-data.md`
+- [x] 27. `docs/handbook/22-practical-projects.md`
+- [x] 28. `docs/handbook/23-where-to-go-next.md`
 
 ---
 
