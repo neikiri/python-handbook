@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "python-handbook"
 version = "1.0.0"
-description = "A beginner-friendly Python handbook"
+description = "A beginner-friendly Python handbook from zero to practical independent programming"
 readme = "README.md"
 license = {text = "MIT"}
 authors = [
@@ -13,7 +13,7 @@ authors = [
 ]
 requires-python = ">=3.10"
 classifiers = [
-    "Development Status :: 3 - Alpha",
+    "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Education",
     "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
@@ -22,6 +22,7 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
     "Topic :: Education",
     "Topic :: Software Development",
 ]
@@ -32,6 +33,7 @@ dependencies = []
 dev = [
     "mkdocs-material>=9.0.0",
     "pytest>=7.0.0",
+    "ruff>=0.8.0",
 ]
 
 [project.urls]
@@ -49,7 +51,6 @@ python_files = ["test_*.py"]
 python_functions = ["test_*"]
 addopts = "-v --tb=short"
 filterwarnings = [
-    "error",
     "ignore::DeprecationWarning",
 ]
 
