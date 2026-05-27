@@ -209,16 +209,16 @@ Each project: standard library only, clean CLI interface, no over-engineering.
 
 ## Phase 7 — Cheatsheets and References
 
-- [ ] 48. `docs/cheatsheets/syntax.md`
-- [ ] 49. `docs/cheatsheets/builtins.md`
-- [ ] 50. `docs/cheatsheets/strings.md`
-- [ ] 51. `docs/cheatsheets/collections.md`
-- [ ] 52. `docs/cheatsheets/file-io.md`
-- [ ] 53. `docs/cheatsheets/stdlib.md`
-- [ ] 54. `docs/references/builtin-types.md`
-- [ ] 55. `docs/references/builtin-exceptions.md`
-- [ ] 56. `docs/references/stdlib-modules.md`
-- [ ] 57. `docs/references/glossary.md`
+- [x] 48. `docs/cheatsheets/syntax.md`
+- [x] 49. `docs/cheatsheets/builtins.md`
+- [x] 50. `docs/cheatsheets/strings.md`
+- [x] 51. `docs/cheatsheets/collections.md`
+- [x] 52. `docs/cheatsheets/file-io.md`
+- [x] 53. `docs/cheatsheets/stdlib.md`
+- [x] 54. `docs/references/builtin-types.md`
+- [x] 55. `docs/references/builtin-exceptions.md`
+- [x] 56. `docs/references/stdlib-modules.md`
+- [x] 57. `docs/references/glossary.md`
 
 ---
 
