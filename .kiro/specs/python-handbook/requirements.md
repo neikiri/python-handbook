@@ -1,12 +1,14 @@
-# Requirements: python-handbook
+# Requirements Document
 
-## Overview
+## Introduction
 
 Build a polished, beginner-friendly Python handbook as a structured open-source learning repository. The goal is to take a learner from zero Python knowledge to practical independent programming.
 
 ---
 
-## Functional Requirements
+## Requirements
+
+### Functional Requirements
 
 ### 1. Repository Skeleton
 
@@ -137,7 +139,7 @@ Two workflows in `.github/workflows/`:
 
 ---
 
-## Non-Functional Requirements
+### Non-Functional Requirements
 
 - Python 3.10+ throughout
 - American English in all content
@@ -148,7 +150,7 @@ Two workflows in `.github/workflows/`:
 
 ---
 
-## Out of Scope (v1)
+### Out of Scope (v1)
 
 - Django, FastAPI, or framework deep dives
 - pandas / numpy tutorials
@@ -157,3 +159,17 @@ Two workflows in `.github/workflows/`:
 - Machine learning content
 - Multi-language translations
 - Advanced Python internals
+
+---
+
+## Glossary
+
+- **Handbook** — The main learning content in `docs/handbook/`.
+- **Exercise** — A practice task for learners, stored in `docs/exercises/`.
+- **Solution** — An explanation and possible answer for an exercise, stored in `docs/solutions/`.
+- **Cheatsheet** — A concise quick-reference page in `docs/cheatsheets/`.
+- **Reference page** — A more detailed lookup page in `docs/references/`.
+- **Example** — A standalone runnable Python script in `examples/`.
+- **Mini project** — A self-contained practice project in `projects/`.
+- **MkDocs** — The documentation site generator used for the handbook website.
+- **Python 3.10+** — The minimum supported Python version for code examples and projects.

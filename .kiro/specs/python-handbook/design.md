@@ -1,6 +1,20 @@
 # Design: python-handbook
 
-## Repository Layout
+## Overview
+
+The `python-handbook` repository is a structured open-source learning resource for Python beginners. It combines a MkDocs documentation site, handbook chapters, exercises, solutions, cheatsheets, references, runnable examples, mini projects, tests, and GitHub Actions.
+
+The design prioritizes:
+- clear navigation,
+- beginner-friendly content,
+- runnable examples,
+- maintainable file organization,
+- simple standard-library-based projects,
+- automated validation through MkDocs and pytest.
+
+## Architecture
+
+### Repository Layout
 
 ```
 python-handbook/
@@ -169,7 +183,33 @@ nav:
 
 ---
 
-## Tooling
+## Components and Interfaces
+
+### Documentation Site
+
+The documentation site is built with MkDocs and the Material theme. The main interface for learners is the generated documentation site, backed by Markdown files in `docs/`.
+
+### Handbook
+
+The handbook consists of 23 ordered Markdown chapters in `docs/handbook/`. Each chapter follows the standard seven-section structure defined in the requirements.
+
+### Exercises and Solutions
+
+Exercises live in `docs/exercises/` and contain problem statements and hints. Matching solutions live in `docs/solutions/` and include reasoning plus code where appropriate.
+
+### Examples
+
+Runnable examples live in `examples/`. They are standalone Python scripts grouped by topic and should run with Python 3.10+.
+
+### Mini Projects
+
+Mini projects live in `projects/`. Each project has a `README.md`, a runnable `main.py`, and optional sample data.
+
+### Tests and CI
+
+Tests live in `tests/` and are run with pytest. GitHub Actions run tests and build the documentation site.
+
+### Tooling
 
 | Tool | Purpose |
 |------|---------|
@@ -201,6 +241,121 @@ dev = ["mkdocs-material", "pytest"]
 4. Run `mkdocs build --strict`
 
 ---
+
+## Data Models
+
+This project does not define application database models. Its primary data models are repository content types and file conventions.
+
+### Content File Model
+
+Each documentation file is a Markdown document with:
+- a single top-level title,
+- consistent heading hierarchy,
+- relative links to related pages,
+- fenced code blocks with language labels where applicable.
+
+### Handbook Chapter Model
+
+Each handbook chapter follows this structure:
+1. Overview
+2. What you will learn
+3. Core concepts
+4. Practical examples
+5. Common mistakes
+6. Practice tasks
+7. Key takeaways
+
+### Exercise Model
+
+Each exercise file contains:
+- problem statements,
+- hints,
+- expected behavior or sample output,
+- no full solutions.
+
+### Solution Model
+
+Each solution file contains:
+- matching exercise names,
+- reasoning,
+- code where applicable,
+- common mistakes or review guidance.
+
+### Project Model
+
+Each mini project contains:
+- `README.md`,
+- `main.py`,
+- optional sample input files,
+- optional tests.
+
+## Correctness Properties
+
+### Property 1: Documentation Build Correctness
+
+**Validates: Requirements 10.1**
+
+The documentation site is correct when `python -m mkdocs build --strict` completes successfully without broken navigation entries or broken internal links.
+
+Validation:
+- Every page referenced by `mkdocs.yml` exists.
+- Internal Markdown links use correct relative paths.
+- The site builds from the repository root.
+
+### Property 2: Python Syntax Correctness
+
+**Validates: Requirements 7.1**
+
+The Python code is correct at the syntax level when all Python files compile successfully.
+
+Validation:
+- Run `python -m compileall examples projects tests`.
+- No syntax errors are reported.
+- Code uses Python 3.10+ compatible syntax.
+
+### Property 3: Test Suite Correctness
+
+**Validates: Requirements 9.1**
+
+The test suite is correct when pytest runs successfully from the repository root.
+
+Validation:
+- Run `python -m pytest`.
+- All tests pass.
+- Tests should not be removed or weakened only to make the suite pass.
+
+### Property 4: Content Structure Correctness
+
+**Validates: Requirements 2.1**
+
+The handbook content is correct when every handbook chapter follows the required seven-section structure.
+
+Validation:
+- Each chapter includes Overview, What you will learn, Core concepts, Practical examples, Common mistakes, Practice tasks, and Key takeaways.
+- Each exercise file has a matching solution file.
+- Each mini project has a README and runnable entry point.
+
+### Property 5: Repository Scope Correctness
+
+**Validates: Requirements 11.1**
+
+The repository stays within the intended v1 scope.
+
+Validation:
+- Content focuses on beginner to practical intermediate Python.
+- Advanced framework deep dives, machine learning tutorials, and unrelated topics remain out of scope.
+- Line counts are treated as guidance, not as a reason to add filler.
+
+## Error Handling
+
+Errors should be handled through simple validation and targeted fixes:
+
+- Broken MkDocs navigation should be fixed by correcting `mkdocs.yml` or creating the missing Markdown file.
+- Broken internal links should be fixed by correcting relative paths.
+- Python syntax errors should be caught with `python -m compileall examples projects tests`.
+- Test failures should be fixed without deleting useful tests.
+- Content inconsistencies should be fixed with targeted edits, not broad rewrites.
+- Agent runs should avoid repeated rewrite loops and should stop after the requested scope.
 
 ## Quality Checklist
 
