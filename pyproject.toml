@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "python-handbook"
-version = "0.1.0"
+version = "1.0.0"
 description = "A beginner-friendly Python handbook"
 readme = "README.md"
 license = {text = "MIT"}
@@ -36,7 +36,7 @@ dev = [
 
 [project.urls]
 Homepage = "https://github.com/neikiri/python-handbook"
-Documentation = "https://python-handbook.github.io"
+Documentation = "https://neikiri.github.io/python-handbook/"
 Repository = "https://github.com/neikiri/python-handbook.git"
 Issues = "https://github.com/neikiri/python-handbook/issues"
 
