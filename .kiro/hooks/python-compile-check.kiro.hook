@@ -1,0 +1,18 @@
+{
+  "enabled": true,
+  "name": "Python Compile Check on Save",
+  "description": "Runs python -m compileall on examples, projects, and tests directories after Python files are modified",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "examples/**/*.py",
+      "projects/**/*.py",
+      "tests/**/*.py"
+    ]
+  },
+  "then": {
+    "type": "runCommand",
+    "command": "python -m compileall examples projects tests"
+  }
+}

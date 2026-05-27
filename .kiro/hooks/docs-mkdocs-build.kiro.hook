@@ -1,0 +1,17 @@
+{
+  "enabled": true,
+  "name": "MkDocs Build on Docs Changes",
+  "description": "Run MkDocs build verification after documentation or configuration changes",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "docs/**/*.md",
+      "mkdocs.yml"
+    ]
+  },
+  "then": {
+    "type": "runCommand",
+    "command": "python -m mkdocs build"
+  }
+}
