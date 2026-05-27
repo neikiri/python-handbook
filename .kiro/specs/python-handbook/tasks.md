@@ -1,4 +1,105 @@
-# Tasks: python-handbook
+# Implementation Plan: python-handbook
+
+
+## Overview
+
+This implementation plan tracks the work required to build the `python-handbook` repository.
+
+The project is organized into phases:
+- Phase 1: repository skeleton
+- Phase 2: beginner handbook chapters
+- Phase 3: intermediate handbook chapters
+- Phase 4: exercises and solutions
+- Phase 5: runnable examples
+- Phase 6: mini projects
+- Phase 7: cheatsheets and references
+- Phase 8: tests
+- Phase 9: final review
+
+Task status:
+- `[ ]` means not started.
+- `[~]` means in progress or partially complete.
+- `[x]` means complete.
+
+## Task Dependency Graph
+
+```json
+{
+  "waves": [
+    {
+      "id": "wave-1",
+      "name": "Repository Skeleton",
+      "tasks": [1, 2, 3, 4, 5],
+      "dependsOn": []
+    },
+    {
+      "id": "wave-2",
+      "name": "Beginner Handbook Chapters",
+      "tasks": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+      "dependsOn": ["wave-1"]
+    },
+    {
+      "id": "wave-3",
+      "name": "Intermediate Handbook Chapters",
+      "tasks": [16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28],
+      "dependsOn": ["wave-2"]
+    },
+    {
+      "id": "wave-4",
+      "name": "Exercises",
+      "tasks": [29, 30],
+      "dependsOn": ["wave-3"]
+    },
+    {
+      "id": "wave-5",
+      "name": "Solutions",
+      "tasks": [31, 32],
+      "dependsOn": ["wave-4"]
+    },
+    {
+      "id": "wave-6",
+      "name": "Examples",
+      "tasks": [33, 34, 35, 36, 37, 38, 39],
+      "dependsOn": ["wave-3"]
+    },
+    {
+      "id": "wave-7",
+      "name": "Mini Projects",
+      "tasks": [40, 41, 42, 43, 44, 45, 46, 47],
+      "dependsOn": ["wave-3"]
+    },
+    {
+      "id": "wave-8",
+      "name": "Cheatsheets and References",
+      "tasks": [48, 49, 50, 51, 52, 53, 54, 55, 56, 57],
+      "dependsOn": ["wave-3"]
+    },
+    {
+      "id": "wave-9",
+      "name": "Tests",
+      "tasks": [58, 59, 60, 61, 62, 63, 64, 65, 66],
+      "dependsOn": ["wave-6", "wave-7"]
+    },
+    {
+      "id": "wave-10",
+      "name": "Final Review",
+      "tasks": [67, 68, 69, 70, 71, 72, 73, 74, 75],
+      "dependsOn": ["wave-5", "wave-8", "wave-9"]
+    }
+  ]
+}
+```
+
+Dependencies:
+
+* Phase 1 must be completed before content-heavy phases.
+* Phase 2 and Phase 3 should be completed before exercises and solutions.
+* Exercises should be completed before solutions.
+* Examples and projects can be developed after the handbook chapters are stable.
+* Tests should be added after examples and projects exist.
+* Final review should happen after all major content and code sections are complete.
+
+## Tasks
 
 ## Phase 1 — Repository Skeleton
 
@@ -148,3 +249,14 @@ All tests must pass with `pytest` from the repository root.
 - [~] 73. Confirm all code uses Python 3.10+ syntax
 - [~] 74. Confirm type hints are present in chapters 16–23
 - [~] 75. Final README review — badges, links, quick start accuracy
+
+## Notes
+
+- Do not use "Run All Tasks" for this project.
+- Implement phases in small batches to avoid unnecessary rewrites and credit usage.
+- Prefer one generation pass per batch.
+- Do not repeatedly rewrite completed chapters.
+- Treat line counts as guidance, not strict requirements.
+- Run `python -m mkdocs build --strict` after documentation batches.
+- Run `python -m compileall examples projects tests` after code batches.
+- Run `python -m pytest` after tests are added.
