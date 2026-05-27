@@ -1,14 +1,14 @@
 {
   "enabled": true,
-  "name": "MkDocs Build on Docs Changes",
-  "description": "Run MkDocs build verification after documentation or configuration changes",
+  "name": "MkDocs Build",
+  "description": "Run strict MkDocs build verification on demand",
   "version": "1",
   "when": {
     "type": "userTriggered"
   },
   "then": {
     "type": "runCommand",
-    "command": "python -m mkdocs build"
+    "command": "python -m mkdocs build --strict"
   },
   "workspaceFolderName": "python-handbook",
   "shortName": "docs-mkdocs-build"

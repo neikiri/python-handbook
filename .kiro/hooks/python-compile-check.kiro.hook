@@ -1,7 +1,7 @@
 {
   "enabled": true,
-  "name": "Python Compile Check on Save",
-  "description": "Runs python -m compileall on examples, projects, and tests directories after Python files are modified",
+  "name": "Python Compile Check",
+  "description": "Run python -m compileall on examples, projects, and tests directories on demand",
   "version": "1",
   "when": {
     "type": "userTriggered"

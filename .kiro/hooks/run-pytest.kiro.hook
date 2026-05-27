@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "name": "Run Pytest",
+  "description": "Run the pytest test suite on demand",
+  "version": "1",
+  "when": {
+    "type": "userTriggered"
+  },
+  "then": {
+    "type": "runCommand",
+    "command": "python -m pytest"
+  },
+  "workspaceFolderName": "python-handbook",
+  "shortName": "run-pytest"
+}
