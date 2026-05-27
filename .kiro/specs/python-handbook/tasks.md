@@ -2,7 +2,7 @@
 
 ## Phase 1 — Repository Skeleton
 
-- [~] 1. Create root config files
+- [x] 1. Create root config files
   - `README.md` — project overview, badges, quick start, table of contents
   - `LICENSE` — MIT license
   - `CONTRIBUTING.md` — how to contribute
@@ -10,39 +10,39 @@
   - `.gitignore` — Python standard gitignore
   - `pyproject.toml` — project metadata and dev dependencies (mkdocs-material, pytest)
 
-- [~] 2. Create `mkdocs.yml`
+- [x] 2. Create `mkdocs.yml`
   - Configure site name, theme (material), and full navigation matching all planned files
   - Add repo URL and edit URI
 
-- [~] 3. Create `docs/` landing pages
+- [x] 3. Create `docs/` landing pages
   - `docs/index.md` — site home page
   - `docs/learning-path.md` — recommended reading order with time estimates
   - `docs/faq.md` — common beginner questions
   - `docs/projects/index.md` — overview of mini projects
 
-- [~] 4. Create `.github/` scaffolding
+- [x] 4. Create `.github/` scaffolding
   - `.github/ISSUE_TEMPLATE/bug_report.md`
   - `.github/ISSUE_TEMPLATE/feature_request.md`
   - `.github/workflows/ci.yml` — pytest on push and PR
   - `.github/workflows/docs.yml` — mkdocs build on push to main
 
-- [~] 5. Create `tests/conftest.py`
+- [x] 5. Create `tests/conftest.py`
   - Shared fixtures: temp directory, sample CSV, sample log file
 
 ---
 
 ## Phase 2 — Handbook Chapters (Beginner, chapters 01–10)
 
-- [~] 6. `docs/handbook/01-introduction.md`
-- [~] 7. `docs/handbook/02-installation-and-setup.md`
-- [~] 8. `docs/handbook/03-running-python.md`
-- [~] 9. `docs/handbook/04-syntax-and-structure.md`
-- [~] 10. `docs/handbook/05-values-variables-types.md`
-- [~] 11. `docs/handbook/06-operators-expressions-input.md`
-- [~] 12. `docs/handbook/07-strings.md`
-- [~] 13. `docs/handbook/08-control-flow.md`
-- [~] 14. `docs/handbook/09-collections.md`
-- [~] 15. `docs/handbook/10-functions.md`
+- [x] 6. `docs/handbook/01-introduction.md`
+- [x] 7. `docs/handbook/02-installation-and-setup.md`
+- [x] 8. `docs/handbook/03-running-python.md`
+- [x] 9. `docs/handbook/04-syntax-and-structure.md`
+- [x] 10. `docs/handbook/05-values-variables-types.md`
+- [x] 11. `docs/handbook/06-operators-expressions-input.md`
+- [x] 12. `docs/handbook/07-strings.md`
+- [x] 13. `docs/handbook/08-control-flow.md`
+- [x] 14. `docs/handbook/09-collections.md`
+- [x] 15. `docs/handbook/10-functions.md`
 
 Each chapter must follow the 7-section structure: Overview, What you will learn, Core concepts, Practical examples, Common mistakes, Practice tasks, Key takeaways.
 
@@ -50,16 +50,16 @@ Each chapter must follow the 7-section structure: Overview, What you will learn,
 
 ## Phase 3 — Handbook Chapters (Intermediate, chapters 11–23)
 
-- [~] 16. `docs/handbook/11-comprehensions-generators.md`
-- [~] 17. `docs/handbook/12-errors-exceptions-debugging.md`
-- [~] 18. `docs/handbook/13-files-paths-json-csv.md`
-- [~] 19. `docs/handbook/14-modules-packages-imports.md`
+- [x] 16. `docs/handbook/11-comprehensions-generators.md`
+- [x] 17. `docs/handbook/12-errors-exceptions-debugging.md`
+- [x] 18. `docs/handbook/13-files-paths-json-csv.md`
+- [x] 19. `docs/handbook/14-modules-packages-imports.md`
 - [x] 20. `docs/handbook/15-virtual-environments-pip.md`
 - [x] 21. `docs/handbook/16-oop.md`
 - [x] 22. `docs/handbook/17-standard-library.md`
-- [~] 23. `docs/handbook/18-testing-code-quality.md`
-- [~] 24. `docs/handbook/19-type-hints.md`
-- [~] 25. `docs/handbook/20-cli-programs.md`
+- [x] 23. `docs/handbook/18-testing-code-quality.md`
+- [x] 24. `docs/handbook/19-type-hints.md`
+- [x] 25. `docs/handbook/20-cli-programs.md`
 - [~] 26. `docs/handbook/21-working-with-data.md`
 - [~] 27. `docs/handbook/22-practical-projects.md`
 - [~] 28. `docs/handbook/23-where-to-go-next.md`
