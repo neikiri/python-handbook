@@ -9,7 +9,7 @@ description = "A beginner-friendly Python handbook"
 readme = "README.md"
 license = {text = "MIT"}
 authors = [
-    {name = "python-handbook contributors", email = "contact@python-handbook.example.com"}
+    {name = "neikiri", email = "neikiri@neikiri.dev"}
 ]
 requires-python = ">=3.10"
 classifiers = [

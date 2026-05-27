@@ -2,7 +2,7 @@ site_name: Python Handbook
 site_description: A beginner-friendly Python handbook that teaches Python from zero to practical independent programming
 site_url: https://neikiri.github.io/python-handbook/
 
-repo_name: python-handbook/python-handbook
+repo_name: neikiri/python-handbook
 repo_url: https://github.com/neikiri/python-handbook
 edit_uri: edit/main/docs/
 

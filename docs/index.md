@@ -73,11 +73,11 @@ This is an open-source project! Contributions are welcome:
 - Fix errors
 - Translate content
 
-See [CONTRIBUTING.md](https://github.com/python-handbook/python-handbook/blob/main/CONTRIBUTING.md) for details.
+See [CONTRIBUTING.md](https://github.com/neikiri/python-handbook/blob/main/CONTRIBUTING.md) for details.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/python-handbook/python-handbook/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/neikiri/python-handbook/blob/main/LICENSE) file for details.
 
 ---
 
