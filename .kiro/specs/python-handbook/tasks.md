@@ -180,13 +180,13 @@ Each chapter must follow the 7-section structure: Overview, What you will learn,
 
 ## Phase 5 — Examples
 
-- [ ] 33. Create `examples/basics/` — variables, types, operators, input
-- [ ] 34. Create `examples/strings/` — formatting, methods, slicing
-- [ ] 35. Create `examples/collections/` — list, dict, set, tuple patterns
-- [ ] 36. Create `examples/functions/` — args, kwargs, closures, decorators
-- [ ] 37. Create `examples/oop/` — classes, inheritance, dataclasses
-- [ ] 38. Create `examples/files/` — pathlib, JSON, CSV read/write
-- [ ] 39. Create `examples/stdlib/` — datetime, random, re, collections, itertools
+- [x] 33. Create `examples/basics/` — variables, types, operators, input
+- [x] 34. Create `examples/strings/` — formatting, methods, slicing
+- [x] 35. Create `examples/collections/` — list, dict, set, tuple patterns
+- [x] 36. Create `examples/functions/` — args, kwargs, closures, decorators
+- [x] 37. Create `examples/oop/` — classes, inheritance, dataclasses
+- [x] 38. Create `examples/files/` — pathlib, JSON, CSV read/write
+- [x] 39. Create `examples/stdlib/` — datetime, random, re, collections, itertools
 
 All example files must run without errors with `python filename.py`.
 
