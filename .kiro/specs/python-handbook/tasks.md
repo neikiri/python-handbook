@@ -174,7 +174,7 @@ Each chapter must follow the 7-section structure: Overview, What you will learn,
 - [x] 30. Create exercise files for chapters 11–23 in `docs/exercises/`
 - [x] 31. Create solution files for chapters 01–10 in `docs/solutions/`
   - Include reasoning and explanation alongside code
-- [ ] 32. Create solution files for chapters 11–23 in `docs/solutions/`
+- [x] 32. Create solution files for chapters 11–23 in `docs/solutions/`
 
 ---
 
