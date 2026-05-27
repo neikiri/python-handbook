@@ -224,15 +224,15 @@ Each project: standard library only, clean CLI interface, no over-engineering.
 
 ## Phase 8 — Tests
 
-- [ ] 58. `tests/test_examples.py` — smoke tests: import and run each example module
-- [ ] 59. `tests/projects/test_number_guessing_game.py`
-- [ ] 60. `tests/projects/test_todo_cli.py`
-- [ ] 61. `tests/projects/test_word_counter.py`
-- [ ] 62. `tests/projects/test_csv_sales_report.py`
-- [ ] 63. `tests/projects/test_password_generator.py`
-- [ ] 64. `tests/projects/test_budget_tracker.py`
-- [ ] 65. `tests/projects/test_log_analyzer.py`
-- [ ] 66. `tests/projects/test_personal_notes_app.py`
+- [x] 58. `tests/test_examples.py` — smoke tests: import and run each example module
+- [x] 59. `tests/projects/test_number_guessing_game.py`
+- [x] 60. `tests/projects/test_todo_cli.py`
+- [x] 61. `tests/projects/test_word_counter.py`
+- [x] 62. `tests/projects/test_csv_sales_report.py`
+- [x] 63. `tests/projects/test_password_generator.py`
+- [x] 64. `tests/projects/test_budget_tracker.py`
+- [x] 65. `tests/projects/test_log_analyzer.py`
+- [x] 66. `tests/projects/test_personal_notes_app.py`
 
 All tests must pass with `pytest` from the repository root.
 
